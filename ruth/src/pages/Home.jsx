@@ -15,7 +15,7 @@ const Home = () => {
        {/* SECTION ESPECIALIDADES */}
        <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-10  rounded'>
          <div className='bg-neutral-600 container  p-4 rounded-lg '>
-               <p className='text-white text-2xl md:text-4xl'>Especialidad</p>
+               <p className='text-rose-50 text-2xl md:text-4xl'>Especialidad</p>
           </div>
        </div>
        
