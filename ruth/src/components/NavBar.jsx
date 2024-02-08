@@ -60,7 +60,7 @@ const NavBar = () => {
             </Link>
         </div>
       </div>
-
+  {/*  gracias */}
       {/* Menú desplegable para dispositivos pequeños */}
       {menuAbierto && (
         <div className="lg:hidden mt-2">
