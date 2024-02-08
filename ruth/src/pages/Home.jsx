@@ -23,7 +23,7 @@ const Home = () => {
           </div>
        </div>
        {/* SECTION  */}
-       <div className='flex container-fluid justify-center p-4'>
+       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-10'>
        <div className="flex flex-wrap container ">
             <div className=' w-full md:w-2/3 '>
               <img src={plasma} className='w-full rounded-lg '/>
