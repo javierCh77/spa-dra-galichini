@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
   
   
-    <nav className="bg-zinc-700/70 rounded   top-0 ">
+    <nav className="bg-zinc-700/70  w-full top-0 relative ">
           <div className="relative flex h-16 items-center justify-between">
    
         {/* Menú Hamburguesa para dispositivos pequeños */}

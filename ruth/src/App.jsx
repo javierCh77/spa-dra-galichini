@@ -21,7 +21,7 @@ function App() {
        <Router>
         <Header />
       
-        <div className="container mx-auto p-10 rounded  ">
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/turnos" element={<Shifts />} />
@@ -29,9 +29,8 @@ function App() {
             <Route path="/servicios" element={<Services />} />
             <Route path="/contacto" element={<Contact />} />
 
-        
           </Routes>
-        </div>
+     
         
         <Footer />
       </Router>
