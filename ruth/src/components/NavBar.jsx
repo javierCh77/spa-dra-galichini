@@ -43,7 +43,7 @@ const NavBar = () => {
               />
             </svg>
           </button>
-          <img src={flor} className='ml-32' width={50} alt=''></img>
+          <Link to='/'><img src={flor} className='ml-32' width={50} alt=''></img></Link>
          
         </div>
 
