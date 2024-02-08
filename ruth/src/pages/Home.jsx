@@ -1,6 +1,10 @@
 import Carousel from '../components/Carousel'
 
+//import logos and img
 import logor from '../assets/logor.png'
+import plasma from '../assets/img/plasma.jpg'
+
+
 
 const Home = () => {
   return (
@@ -18,8 +22,23 @@ const Home = () => {
                <p className='text-rose-50 text-2xl md:text-4xl'>Especialidad</p>
           </div>
        </div>
-       
        {/* SECTION  */}
+       <div className='flex container-fluid justify-center p-4'>
+       <div className="flex flex-wrap container ">
+            <div className=' w-full md:w-2/3 '>
+              <img src={plasma} className='w-full rounded-lg '/>
+            </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center text-center rounded-b-lg '>
+              <div className=''>
+                <h1 className='text-4xl md:text-6xl'>PLASMA</h1>
+                <p>Plasma Brillo y luminosiddad</p>
+              </div>
+            
+            </div>
+           
+       </div>
+            
+       </div>
        
     </>
   )
