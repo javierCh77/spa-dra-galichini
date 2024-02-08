@@ -2,7 +2,7 @@
 
 const Shifts = () => {
   return (
-    <div>
+    <div className="container bg-slate-500 ">
        aqui los turnos
     </div>
   )
