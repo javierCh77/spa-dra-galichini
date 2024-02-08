@@ -1,6 +1,9 @@
 import {useState} from 'react'
 import { Link } from 'react-router-dom';
 
+//import icon
+import flor from '../assets/flor.png'
+
 
 
 const NavBar = () => {
@@ -13,17 +16,18 @@ const NavBar = () => {
   return (
   
   
-    <nav className="bg-gray-500  w-full top-0 relative ">
+    <nav className="bg-neutral-600 w-full top-0 relative ">
           <div className="relative flex h-16 items-center justify-between">
    
         {/* Menú Hamburguesa para dispositivos pequeños */}
-        <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <div className="container absolute inset-y-0 left-0 flex items-center sm:hidden ">
+        
         
           {/* <button
             onClick={toggleMenu}
             className="text-white focus:outline-none focus:text-white"
           > */}
-            <button type="button"   onClick={toggleMenu} className="ml-3 relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <button type="button"   onClick={toggleMenu} className="ml-3 relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 bg-neutral-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -39,10 +43,12 @@ const NavBar = () => {
               />
             </svg>
           </button>
+          <img src={flor} className='ml-28' width={50} alt=''></img>
+         
         </div>
 
         {/* Menú de Navegación para pantallas grandes */}
-        <div className="hidden lg:flex space-x-6  w-full text-center justify-center ">
+        <div className="hidden lg:flex space-x-6  w-full text-center justify-center   ">
         <Link to="/" class="text-lg  font-semibold leading-6  text-white  hover:font-bold ">
               Inicio
             </Link>
@@ -64,7 +70,7 @@ const NavBar = () => {
       {/* Menú desplegable para dispositivos pequeños */}
       {menuAbierto && (
         <div className="lg:hidden mt-2">
-          <ul className="bg-gray-400/60 p-2">
+          <ul className="bg-neutral-500 p-2">
             <li className="text-white py-1"><Link to="/home" class="text-lg font-semibold leading-6 text-white  hover:font-bold ">
               Inicio
             </Link></li>
