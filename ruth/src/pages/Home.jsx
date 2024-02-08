@@ -9,7 +9,7 @@ const Home = () => {
        {/* LOGO  */}
        <div className='container-fluid  flex justify-center  '>
         <div className='container  flex justify-center  '>
-            <img src={logor} alt='logo dra. Ruth galichini ' className='w-44 md:w-96'></img>
+            <img src={logor} alt='logo dra. Ruth galichini ' className='w-52 md:w-96'></img>
         </div>
        </div>
        
