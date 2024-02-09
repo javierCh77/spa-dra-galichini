@@ -27,62 +27,68 @@ const Home = () => {
        
        
        {/* SECTION  */}
-      
-       
-       
-            <div className=" grid grid-cols-2 md:grid-cols-1 gap-4 justify-center text-center p-4 md:p-10">
-              <div className=' container-test'>
-                  <div className="container-img border overflow-hidden rounded-lg">
-                     <img src={plasma}   className='w-full h-full object-cover '/>
-                  </div>
-                  <div className='text-neutral-600 flex-auto'>
-                      <h1 className=' font-semibold text-l md:text-4xl'>PLASMA</h1>
-                      <p className='text-sm'>Brillo y luminocidad</p>
-                  </div>
-              </div>
-              
-              
-              <div className=' container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
-                  </div>
-                  <div className='text-neutral-600 flex-auto'>
-                      <h1 className=' font-semibold text-l md:text-4xl'>BOTOX</h1>
-                      <p className='text-sm'>Brillo y reparacion</p>
-                  </div>
-              </div>
-               
-              <div className=' container-test'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
-                  </div>
-                  <div className='text-neutral-600 flex-auto'>
-                      <h1 className='font-semibold text-l md:text-4xl'>ACIDO ILURONICO</h1>
-                      <p className='text-sm'>Protecion y hidratacion</p>
-                  </div>
-              </div>
-               
-                
-              <div className='container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
-                  </div>
-                  <div className='text-neutral-600 flex-auto'>
-                      <h1 className=' font-semibold text-l md:text-4xl'>SCULPRA</h1>
-                      <p className='text-sm'>Bucinador y cuello</p>
-                  </div>
-              </div>
-               
-               
-                
-                
+       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8'>
+       <div className="flex flex-wrap container ">
+         <div className="container-img border overflow-hidden">
+              <img src={plasma}  className='w-full h-full object-cover rounded-lg'/>
             </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center text-center rounded-b-lg '>
+              <div className=''>
+                <h1 className='text-3xl md:text-5xl '>PLASMA</h1>
+                <p>Plasma Brillo y luminosiddad</p>
+              </div>
+            </div>
+       </div>
+       </div>
        
        
        
        
        
        
+       
+       
+       <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
+       <div className="flex flex-wrap flex-row-reverse container ">
+          <div className="container-img border overflow-hidden">
+              <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
+            </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center text-center rounded-b-lg '>
+              <div className=''>
+                <h1 className='text-4xl md:text-5xl'>BOTOX</h1>
+                <p>Brillo y reparacion</p>
+              </div>
+            </div>
+       </div>
+       </div>
+       
+       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8'>
+       <div className="flex flex-wrap container ">
+          <div className="container-img border overflow-hidden">
+              <img src={plasma}  className='w-full h-full object-cover rounded-lg'/>
+            </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center text-center rounded-b-lg '>
+              <div className=''>
+                <h1 className='text-4xl md:text-5xl'>ACIDO ILURONICO</h1>
+                <p>Proteccion y hidratacion</p>
+              </div>
+            </div>
+       </div>
+       </div>
+       
+       <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
+       <div className="flex flex-wrap flex-row-reverse container ">
+             <div className="container-img border overflow-hidden">
+              <img src={plasma}  className='w-full h-full object-cover rounded-lg'/>
+            </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center text-center rounded-b-lg '>
+              <div className=''>
+                <h1 className='text-4xl md:text-5xl'>SCULPRA</h1>
+                <p>Bucinador y cuello</p>
+              </div>
+            </div>
+       </div>
+       </div>
        
        
        
