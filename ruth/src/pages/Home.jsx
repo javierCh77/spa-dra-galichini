@@ -23,9 +23,6 @@ const Home = () => {
           </div>
        </div>
        
-       
-       
-       
        {/* SECTION  */}
       
        <div className='container-fluid justify-center  text-center align-middle flex  rounded'>
@@ -39,7 +36,6 @@ const Home = () => {
                       <p className='text-sm'>Brillo y luminocidad</p>
                   </div>
               </div>
-              
               
               <div className=' container-test flex-row-reverse'>
                   <div className="container-img border overflow-hidden  rounded-lg  shadow-lg">
@@ -61,7 +57,6 @@ const Home = () => {
                   </div>
               </div>
                
-                
               <div className='container-test flex-row-reverse'>
                   <div className="container-img border overflow-hidden  rounded-lg shadow-lg">
                      <img src={botox}   className='w-full h-full object-cover '/>
@@ -70,23 +65,10 @@ const Home = () => {
                       <h1 className=' font-semibold text-l md:text-4xl'>SCULPRA</h1>
                       <p className='text-sm'>Bucinador y cuello</p>
                   </div>
-              </div>
-               
-               
-                
-                
+              </div>   
             </div>
-       
        </div>
-       
-       
-       
-       
-       
-       
-       
-       
-       
+         
        {/* Informacion de ruth */}
        <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8   rounded'>
          <div className='bg-neutral-600 container  p-4 rounded-lg '>
@@ -113,7 +95,6 @@ const Home = () => {
             </div>
        </div>
        </div>
-       
        
     </>
   )

@@ -80,10 +80,10 @@ const NavBar = () => {
             <li className="text-white py-1"><Link to="/productos" class="text-lg font-semibold leading-6 text-rose-50 hover:font-bold ">
               Productos
             </Link></li>
-            <li className="text-white py-1"><Link to="/servicios" target="_blank" class="flex gap-2 text-lg font-semibold leading-6 text-rose-50  hover:font-bold ">
+            <li className="text-white py-1"><Link to="/servicios"  class="flex gap-2 text-lg font-semibold leading-6 text-rose-50  hover:font-bold ">
              Servicios
             </Link></li>
-            <li className="text-white py-1"><Link  to="/contacto" target="_blank" class="flex gap-2 text-lg font-semibold leading-6 text-rose-50 hover:font-bold ">
+            <li className="text-white py-1"><Link  to="/contacto"  class="flex gap-2 text-lg font-semibold leading-6 text-rose-50 hover:font-bold ">
              Contacto
             </Link></li>
           </ul>
