@@ -94,7 +94,7 @@ const Home = () => {
           </div>
        </div>
        <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
-       <div className="flex  flex-wrap align-middle   justify-center bg-slate-400  md:px-45 ">
+       <div className="flex  flex-wrap align-middle   justify-center  md:px-45 ">
           <div className="container-ruth border overflow-hidden">
               <img src={ruth}  className='w-full h-full object-cover rounded-lg'/>
             </div>
