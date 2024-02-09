@@ -28,9 +28,8 @@ const Home = () => {
        
        {/* SECTION  */}
       
-       
        <div className='container-fluid justify-center  text-center align-middle flex  rounded'>
-            <div className=" grid grid-cols-2 md:grid-cols-1 gap-4 justify-center text-center p-4 md:p-10 ">
+            <div className="md:container  md:px-40 grid grid-cols-2 md:grid-cols-1 gap-4  md:justify-between text-center  p-4">
               <div className=' container-test '>
                   <div className="container-img border overflow-hidden rounded-lg shadow-lg">
                      <img src={plasma}   className='w-full h-full object-cover '/>
@@ -95,7 +94,7 @@ const Home = () => {
           </div>
        </div>
        <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
-       <div className="flex  flex-wrap align-middle   justify-center ">
+       <div className="flex  flex-wrap align-middle   justify-center bg-slate-400  md:px-45 ">
           <div className="container-ruth border overflow-hidden">
               <img src={ruth}  className='w-full h-full object-cover rounded-lg'/>
             </div>
