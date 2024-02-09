@@ -12,6 +12,7 @@ const Footer = () => {
 
   return (
     <>
+    {/* test */}
     <div className="bg-neutral-600 p-6 justify-center  text-center mt-8">
       <div className="  grid grid-rows-3 md:grid-flow-col   justify-center  md:justify-normal ">
         <div className="md:row-span-3 ... container-footer bg-[#FFEFEC] flex justify-center overflow-hidden rounded-3xl">
