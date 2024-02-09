@@ -29,7 +29,7 @@ const Home = () => {
        {/* SECTION  */}
       
        
-       
+       <div className='container-fluid justify-center  text-center align-middle flex  rounded'>
             <div className=" grid grid-cols-2 md:grid-cols-1 gap-4 justify-center text-center p-4 md:p-10 ">
               <div className=' container-test '>
                   <div className="container-img border overflow-hidden rounded-lg shadow-lg">
@@ -78,7 +78,7 @@ const Home = () => {
                 
             </div>
        
-       
+       </div>
        
        
        
@@ -89,13 +89,13 @@ const Home = () => {
        
        
        {/* Informacion de ruth */}
-       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8  rounded'>
+       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8   rounded'>
          <div className='bg-neutral-600 container  p-4 rounded-lg '>
                <p className='text-rose-50 text-2xl md:text-4xl'>SOBRE MI</p>
           </div>
        </div>
        <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
-       <div className="flex flex-wrap container ">
+       <div className="flex  flex-wrap align-middle   justify-center ">
           <div className="container-ruth border overflow-hidden">
               <img src={ruth}  className='w-full h-full object-cover rounded-lg'/>
             </div>
