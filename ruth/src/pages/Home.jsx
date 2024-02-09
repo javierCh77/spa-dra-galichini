@@ -19,7 +19,7 @@ const Home = () => {
        {/* SECTION ESPECIALIDADES */}
        <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8  rounded'>
          <div className='bg-neutral-600 container  p-4 rounded-lg '>
-               <p className='text-rose-50 text-2xl md:text-4xl'>ESPECIALIDADES</p>
+               <p className='text-rose-50 text-2xl md:text-4xl font-semibold'>ESPECIALIDADES</p>
           </div>
        </div>
        
@@ -90,17 +90,17 @@ const Home = () => {
        {/* Informacion de ruth */}
        <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8   rounded'>
          <div className='bg-neutral-600 container  p-4 rounded-lg '>
-               <p className='text-rose-50 text-2xl md:text-4xl'>SOBRE MI</p>
+               <p className='text-rose-50 text-2xl md:text-4xl font-semibold'>SOBRE MI</p>
           </div>
        </div>
        <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
        <div className="flex  flex-wrap align-middle   justify-center  md:px-45 ">
-          <div className="container-ruth border overflow-hidden">
-              <img src={ruth}  className='w-full h-full object-cover rounded-lg'/>
+          <div className="container-ruth border overflow-hidden rounded-lg">
+              <img src={ruth}  className='w-full h-full object-cover '/>
             </div>
             <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center  md:text-left rounded-b-lg '>
-              <div className=' md:ml-3'>
-                <h1 className='mt-3 text-4xl md:text-4xl'>Ruth Galichini</h1>
+              <div className=' md:ml-3 text-neutral-600'>
+                <h1 className='mt-3 text-4xl md:text-4xl font-semibold'>Ruth Galichini</h1>
                 <p className='mt-4 md:text-xl pl-4 pr-4 md:p-0'> Mi objetivo es en cada uno de los procedimientos
                   acompañar el deseo de cada paciente. La optimización de
                   resultados está en la combinación de escuchar a mis pacientes
