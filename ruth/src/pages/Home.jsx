@@ -43,8 +43,8 @@ const Home = () => {
               
               
               <div className=' container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
+                  <div className="container-img border overflow-hidden  rounded-lg ">
+                     <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
                       <h1 className=' font-semibold text-l md:text-4xl'>BOTOX</h1>
@@ -53,8 +53,8 @@ const Home = () => {
               </div>
                
               <div className=' container-test'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
+                  <div className="container-img border overflow-hidden rounded-lg ">
+                     <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
                       <h1 className='font-semibold text-l md:text-4xl'>ACIDO ILURONICO</h1>
@@ -64,8 +64,8 @@ const Home = () => {
                
                 
               <div className='container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden ">
-                     <img src={botox}   className='w-full h-full object-cover rounded-lg'/>
+                  <div className="container-img border overflow-hidden  rounded-lg ">
+                     <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
                       <h1 className=' font-semibold text-l md:text-4xl'>SCULPRA</h1>
