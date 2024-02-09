@@ -4,7 +4,7 @@ import './style.css'
 import logor from '../assets/logor.png'
 import plasma from '../assets/img/plasma.jpg'
 import botox from '../assets/img/botox.jpeg'
-
+import ruth from '../assets/img/ruth.jpeg'
 
 const Home = () => {
   return (
@@ -74,6 +74,37 @@ const Home = () => {
               <div className=''>
                 <h1 className='text-4xl md:text-5xl'>SCULPRA</h1>
                 <p>Bucinador y cuello</p>
+              </div>
+            </div>
+       </div>
+       </div>
+       
+       
+       
+       
+       
+       {/* Informacion de ruth */}
+       <div className='container-fluid justify-center text-center align-middle flex p-4 md:p-8  rounded'>
+         <div className='bg-neutral-600 container  p-4 rounded-lg '>
+               <p className='text-rose-50 text-2xl md:text-4xl'>SOBRE MI</p>
+          </div>
+       </div>
+       <div className='container-fluid justify-center text-center align-middle p-4 md:p-8'>
+       <div className="flex flex-wrap container ">
+          <div className="container-ruth border overflow-hidden">
+              <img src={ruth}  className='w-full h-full object-cover rounded-lg'/>
+            </div>
+            <div className=' w-full md:w-1/3 flex flex-wrap  content-center justify-center  md:text-left rounded-b-lg '>
+              <div className=' md:ml-3'>
+                <h1 className='mt-3 text-4xl md:text-4xl'>Ruth Galichini</h1>
+                <p className='mt-4 md:text-xl'> Mi objetivo es en cada uno de los procedimientos
+                  acompañar el deseo de cada paciente. La optimización de
+                  resultados está en la combinación de escuchar a mis pacientes
+                  en cuanto a sus incomodidades, deseos e inquietudes, evaluar
+                  diferentes propuestas, y elegir la mejor según cada perfil.
+                  Obtener los mejores resultados es un desafío diario! La
+                  felicidad de cada paciente al finalizar los trabajos es el
+                  mejor pago de todos!</p>
               </div>
             </div>
        </div>
