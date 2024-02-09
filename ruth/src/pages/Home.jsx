@@ -31,8 +31,8 @@ const Home = () => {
        
        
             <div className=" grid grid-cols-2 md:grid-cols-1 gap-4 justify-center text-center p-4 md:p-10 ">
-              <div className=' container-test'>
-                  <div className="container-img border overflow-hidden rounded-lg">
+              <div className=' container-test '>
+                  <div className="container-img border overflow-hidden rounded-lg shadow-lg">
                      <img src={plasma}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto d-flex'>
@@ -43,7 +43,7 @@ const Home = () => {
               
               
               <div className=' container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden  rounded-lg ">
+                  <div className="container-img border overflow-hidden  rounded-lg  shadow-lg">
                      <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
@@ -53,7 +53,7 @@ const Home = () => {
               </div>
                
               <div className=' container-test'>
-                  <div className="container-img border overflow-hidden rounded-lg ">
+                  <div className="container-img border overflow-hidden rounded-lg  shadow-lg">
                      <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
@@ -64,7 +64,7 @@ const Home = () => {
                
                 
               <div className='container-test flex-row-reverse'>
-                  <div className="container-img border overflow-hidden  rounded-lg ">
+                  <div className="container-img border overflow-hidden  rounded-lg shadow-lg">
                      <img src={botox}   className='w-full h-full object-cover '/>
                   </div>
                   <div className='text-neutral-600 flex-auto'>
